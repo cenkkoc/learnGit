@@ -55,7 +55,9 @@ int_counter = len(int_response)
 # print (int_counter)
 
 while counter < int_counter-20:
+    
     print ("*"*30)
+    # buraya regex if yazılmalı
     print (int_response[counter]['interface']," + ",int_response[counter]['state'])
     counter += 1
 print ("*"*30)
